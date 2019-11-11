@@ -49,10 +49,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TlW-KV-duX" userLabel="Screen3">
-                                <rect key="frame" x="186" y="69" width="118" height="60"/>
+                                <rect key="frame" x="123" y="69" width="181" height="60"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="118" id="r0U-xX-zEO"/>
+                                    <constraint firstAttribute="width" constant="181" id="r0U-xX-zEO"/>
                                 </constraints>
                                 <size key="titleShadowOffset" width="7" height="17"/>
                                 <state key="normal" title="Work Crew" backgroundImage="Button">
@@ -398,8 +398,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trim Edges" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ySA-mA-rTb">
-                                <rect key="frame" x="86" y="232" width="85.5" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trim Hedges" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ySA-mA-rTb">
+                                <rect key="frame" x="86" y="232" width="98" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>

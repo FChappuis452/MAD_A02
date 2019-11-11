@@ -1,0 +1,87 @@
+
+/* Class = "UILabel"; text = "Cut Grass"; ObjectID = "2gE-QK-QB0"; */
+"2gE-QK-QB0.text" = "Couper l'herbe";
+
+/* Class = "UILabel"; text = "Frederic Chappuis"; ObjectID = "3iA-XR-pgG"; */
+"3iA-XR-pgG.text" = "Frederic Chappuis";
+
+/* Class = "UILabel"; text = "Task ID"; ObjectID = "6eC-JX-sH9"; */
+"6eC-JX-sH9.text" = "ID de tâche";
+
+/* Class = "UILabel"; text = "2"; ObjectID = "BND-ww-aJH"; */
+"BND-ww-aJH.text" = "2";
+
+/* Class = "UIViewController"; title = "Home"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "Accueil";
+
+/* Class = "UITextField"; placeholder = "Enter Name"; ObjectID = "EcY-Xb-yRm"; */
+"EcY-Xb-yRm.placeholder" = "Entrez le nom";
+
+/* Class = "UILabel"; text = "4"; ObjectID = "FQU-sT-FmH"; */
+"FQU-sT-FmH.text" = "4";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "H6t-tt-lj3"; */
+"H6t-tt-lj3.text" = "1";
+
+/* Class = "UIButton"; normalTitle = "CM <-> Inches"; ObjectID = "IEq-tZ-jij"; */
+"IEq-tZ-jij.normalTitle" = "CM <-> Pouces";
+
+/* Class = "UILabel"; text = "Lucas Roes"; ObjectID = "LAR-9b-Hwb"; */
+"LAR-9b-Hwb.text" = "Lucas Roes";
+
+/* Class = "UIViewController"; title = "Converters"; ObjectID = "Ruk-2O-B6h"; */
+"Ruk-2O-B6h.title" = "Convertisseurs";
+
+/* Class = "UIButton"; normalTitle = "Work Crew"; ObjectID = "TlW-KV-duX"; */
+"TlW-KV-duX.normalTitle" = "Équipe de travail";
+
+/* Class = "UILabel"; text = "LabelB"; ObjectID = "UYg-qn-BHa"; */
+"UYg-qn-BHa.text" = "LabelB";
+
+/* Class = "UILabel"; text = "Timothy J Cowen"; ObjectID = "cCR-c0-O4E"; */
+"cCR-c0-O4E.text" = "Timothy J Cowen";
+
+/* Class = "UILabel"; text = "Task Name"; ObjectID = "g7y-Bo-dTn"; */
+"g7y-Bo-dTn.text" = "Nom de la tâche";
+
+/* Class = "UILabel"; text = "Converter"; ObjectID = "h6F-ho-A52"; */
+"h6F-ho-A52.text" = "Convertisseur";
+
+/* Class = "UILabel"; text = "Pick Up Leaves"; ObjectID = "ib8-S0-8au"; */
+"ib8-S0-8au.text" = "Ramasser les feuilles";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "kAg-Pt-Jr1"; */
+"kAg-Pt-Jr1.text" = "3";
+
+/* Class = "UITextField"; placeholder = "Enter Name"; ObjectID = "kXT-wG-yCb"; */
+"kXT-wG-yCb.placeholder" = "Entrez le nom";
+
+/* Class = "UIButton"; normalTitle = "Convert"; ObjectID = "mFY-uA-bBF"; */
+"mFY-uA-bBF.normalTitle" = "Convertir";
+
+/* Class = "UIViewController"; title = "Work Crew"; ObjectID = "miO-ID-r74"; */
+"miO-ID-r74.title" = "Équipe de travail";
+
+/* Class = "UINavigationItem"; title = "Home"; ObjectID = "nVp-tJ-juG"; */
+"nVp-tJ-juG.title" = "Accueil";
+
+/* Class = "UIButton"; normalTitle = "Temperature"; ObjectID = "pb3-Vb-0KZ"; */
+"pb3-Vb-0KZ.normalTitle" = "Temperature";
+
+/* Class = "UILabel"; text = "Water Plants"; ObjectID = "puB-Cl-rmI"; */
+"puB-Cl-rmI.text" = "Arroser les Plantes";
+
+/* Class = "UILabel"; text = "Result"; ObjectID = "qPH-B9-qPh"; */
+"qPH-B9-qPh.text" = "Resultat";
+
+/* Class = "UILabel"; text = "op"; ObjectID = "qSG-Pm-OSI"; */
+"qSG-Pm-OSI.text" = "op";
+
+/* Class = "UILabel"; text = "LabelA"; ObjectID = "sKK-LF-xd1"; */
+"sKK-LF-xd1.text" = "LabelA";
+
+/* Class = "UILabel"; text = "Trim Edges"; ObjectID = "ySA-mA-rTb"; */
+"ySA-mA-rTb.text" = "Couper les haies";
+
+/* Class = "UITextField"; placeholder = "Enter Name"; ObjectID = "zlI-sD-Yp7"; */
+"zlI-sD-Yp7.placeholder" = "Entrez Nom";

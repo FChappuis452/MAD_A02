@@ -12,7 +12,7 @@
  */
 
 import UIKit
-class UnitConverterViewController: UIViewController {
+class UnitConverterViewController: UIViewController, UITextFieldDelegate {
     
     // Outlets for the various Labels and textfields and input views
     // on screens
@@ -213,9 +213,7 @@ class UnitConverterViewController: UIViewController {
         var result: String = ""
         switch operation {
         case "temp":
-            print("in temp")
             if txtFieldA.text?.isEmpty == false{
-                print("in if")
                 result = convert(val, "cel")
             }else{
                 result = convert(val, "fah")
