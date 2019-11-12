@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		664F65DE2342E6C0003293F1 /* WorkGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664F65DD2342E6C0003293F1 /* WorkGroupViewController.swift */; };
+		66EB82D1237B1481007C6A4F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EB82D0237B1481007C6A4F /* TableViewController.swift */; };
 		66FF24462339BA4800D5B68F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF24452339BA4800D5B68F /* AppDelegate.swift */; };
 		66FF24482339BA4800D5B68F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF24472339BA4800D5B68F /* MainViewController.swift */; };
 		66FF244B2339BA4800D5B68F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66FF24492339BA4800D5B68F /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 		664F65DD2342E6C0003293F1 /* WorkGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkGroupViewController.swift; sourceTree = "<group>"; };
 		66EB82CC2378D57A007C6A4F /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		66EB82CD2378D57A007C6A4F /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/Main.strings"; sourceTree = "<group>"; };
+		66EB82D0237B1481007C6A4F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		66FF24422339BA4800D5B68F /* iOS_A02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_A02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66FF24452339BA4800D5B68F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66FF24472339BA4800D5B68F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				66FF244E2339BA4B00D5B68F /* LaunchScreen.storyboard */,
 				66FF24492339BA4800D5B68F /* Main.storyboard */,
 				664F65DD2342E6C0003293F1 /* WorkGroupViewController.swift */,
+				66EB82D0237B1481007C6A4F /* TableViewController.swift */,
 			);
 			path = iOS_A02;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				66FF2458233C31B200D5B68F /* UnitConverterViewController.swift in Sources */,
 				66FF24482339BA4800D5B68F /* MainViewController.swift in Sources */,
 				664F65DE2342E6C0003293F1 /* WorkGroupViewController.swift in Sources */,
+				66EB82D1237B1481007C6A4F /* TableViewController.swift in Sources */,
 				66FF24462339BA4800D5B68F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -23,7 +23,19 @@ class MainViewController: UIViewController {
         self.goToView(name: "SecondViewController")
     }
     
+
     
+    
+    /*
+     * Function     :   viewTableScreen
+     * Description  :   This is the function that controls going to the Table View screen
+     *                  It calls a the goToView function to call the Unit conversion screen.
+     * Parameters   :   none
+     * Return Value :   none
+     */
+    @IBAction func viewTableView(_ sender: Any) {
+        self.goToView(name: "TableViewController")
+    }
     
     /*
      * Function     :   viewThirdScreen
