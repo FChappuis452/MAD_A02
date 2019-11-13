@@ -3,25 +3,25 @@
 "3iA-XR-pgG.text" = "Frederic Chappuis";
 
 /* Class = "UIViewController"; title = "Home"; ObjectID = "BYZ-38-t0r"; */
-"BYZ-38-t0r.title" = "Accueil";
+"BYZ-38-t0r.title" = "Home";
 
 /* Class = "UITextField"; placeholder = "Enter Name"; ObjectID = "EcY-Xb-yRm"; */
-"EcY-Xb-yRm.placeholder" = "Entrez Nom";
+"EcY-Xb-yRm.placeholder" = "Enter Name";
 
 /* Class = "UIButton"; normalTitle = "CM <-> Inches"; ObjectID = "IEq-tZ-jij"; */
-"IEq-tZ-jij.normalTitle" = "CM <-> Pouces";
+"IEq-tZ-jij.normalTitle" = "CM <-> Inches";
 
 /* Class = "UITextField"; placeholder = "Enter Name"; ObjectID = "KRH-qu-Fw5"; */
-"KRH-qu-Fw5.placeholder" = "Entrez Nom";
+"KRH-qu-Fw5.placeholder" = "Enter Name";
 
 /* Class = "UILabel"; text = "Lucas Roes"; ObjectID = "LAR-9b-Hwb"; */
 "LAR-9b-Hwb.text" = "Lucas Roes";
 
 /* Class = "UIViewController"; title = "Converters"; ObjectID = "Ruk-2O-B6h"; */
-"Ruk-2O-B6h.title" = "Convertissers";
+"Ruk-2O-B6h.title" = "Converters";
 
 /* Class = "UIButton"; normalTitle = "Work Crew"; ObjectID = "TlW-KV-duX"; */
-"TlW-KV-duX.normalTitle" = "Equipe de travail";
+"TlW-KV-duX.normalTitle" = "Work Crew";
 
 /* Class = "UILabel"; text = "LabelB"; ObjectID = "UYg-qn-BHa"; */
 "UYg-qn-BHa.text" = "LabelB";
@@ -30,22 +30,22 @@
 "cCR-c0-O4E.text" = "Timothy J Cowen";
 
 /* Class = "UILabel"; text = "Converter"; ObjectID = "h6F-ho-A52"; */
-"h6F-ho-A52.text" = "Convertisser";
+"h6F-ho-A52.text" = "Converter";
 
 /* Class = "UIButton"; normalTitle = "Convert"; ObjectID = "mFY-uA-bBF"; */
-"mFY-uA-bBF.normalTitle" = "Convertir";
+"mFY-uA-bBF.normalTitle" = "Convert";
 
 /* Class = "UIViewController"; title = "Work Crew"; ObjectID = "miO-ID-r74"; */
-"miO-ID-r74.title" = "Equipe de travail";
+"miO-ID-r74.title" = "Work Crew";
 
 /* Class = "UINavigationItem"; title = "Home"; ObjectID = "nVp-tJ-juG"; */
-"nVp-tJ-juG.title" = "Accueil";
+"nVp-tJ-juG.title" = "Home";
 
 /* Class = "UIButton"; normalTitle = "Temperature"; ObjectID = "pb3-Vb-0KZ"; */
 "pb3-Vb-0KZ.normalTitle" = "Temperature";
 
 /* Class = "UILabel"; text = "Result"; ObjectID = "qPH-B9-qPh"; */
-"qPH-B9-qPh.text" = "Resultat";
+"qPH-B9-qPh.text" = "Result";
 
 /* Class = "UILabel"; text = "op"; ObjectID = "qSG-Pm-OSI"; */
 "qSG-Pm-OSI.text" = "op";
@@ -54,10 +54,4 @@
 "sKK-LF-xd1.text" = "LabelA";
 
 /* Class = "UITextField"; placeholder = "Enter Name"; ObjectID = "zlI-sD-Yp7"; */
-"zlI-sD-Yp7.placeholder" = "Entrez Nom";
-
-"Cut Grass" = "Couper le gazon";
-"Trim Hedges" = "Couper les haies";
-"Water Plants" = "Arroser les plantes";
-"Pick up leaves" = "Rammasser les feuilles";
-
+"zlI-sD-Yp7.placeholder" = "Enter Name";

@@ -11,23 +11,33 @@
  */
 
 import UIKit
-class WorkGroupViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource{
+class WorkGroupViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, UITableViewDataSource{
     
-    
-    
+    @IBOutlet var tableView: UITableView!
     @IBOutlet var txtName: UITextField!
     @IBOutlet var switch1: UISwitch!
     @IBOutlet var picker1: UIPickerView!
     @IBOutlet var picker2: UIPickerView!
     
+    
+    private var data: [String] = [NSLocalizedString("Cut Grass", comment: ""),
+        NSLocalizedString("Trim Hedges", comment: ""),
+        NSLocalizedString("Water Plants", comment: ""),
+        NSLocalizedString("Pick up leaves", comment: "")]
     // The information to display in the pickerview
-    let pickerData = ["1", "2", "3", "4"]
-
+    private var pickerData: [String] = []
     
     // Class method added by iOS
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        tableView.dataSource = self
+
+        for idx in 1...data.count{
+            pickerData.append(String(idx))
+        }
+        
+        
         // There was an issue with dismissing the keyboard with dismissFirstResponder so I
         // found this alternate method from stack overflow
         // https://stackoverflow.com/questions/37229132/swift-how-to-resign-first-responder-on-all-uitextfield
@@ -87,4 +97,24 @@ class WorkGroupViewController: UIViewController, UIPickerViewDelegate, UIPickerV
         return pickerData.count
     }
     
+    
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return data.count
+        
+    }
+    
+    
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cellReUseID")!
+        let rn: Int = indexPath.row + 1
+        let text = "\(rn): " + data[indexPath.row]
+        cell.textLabel?.text = text
+        return cell
+    }
 }
