@@ -99,6 +99,19 @@ class WorkGroupViewController: UIViewController, UIPickerViewDelegate, UIPickerV
     
     
     
+    
+    
+    /* --------TABLE CODE --------- */
+    /*
+     * Function     :   multiple
+     * Description  :   The following three function are needed to populate the table views on the screen
+     *                  numberOfSection returns how many different sets of data in the table
+     *                  tableView, number of rows returns how many rows there will be in the table
+     *                  tableview cellForRowAt returns what is to appear in the tablecell
+     * Parameters   :   none
+     * Return Value :   none
+     */
+    
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -108,12 +121,10 @@ class WorkGroupViewController: UIViewController, UIPickerViewDelegate, UIPickerV
         
     }
     
-    
-    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellReUseID")!
         let rn: Int = indexPath.row + 1
-        let text = "\(rn): " + data[indexPath.row]
+        let text = "\(rn): " + NSLocalizedString(data[indexPath.row], comment: "") //data[indexPath.row]
         cell.textLabel?.text = text
         return cell
     }
