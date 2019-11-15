@@ -21,9 +21,9 @@ class WorkGroupViewController: UIViewController, UIPickerViewDelegate, UIPickerV
     
     
     private var data: [String] = [NSLocalizedString("Cut Grass", comment: ""),
-        NSLocalizedString("Trim Hedges", comment: ""),
-        NSLocalizedString("Water Plants", comment: ""),
-        NSLocalizedString("Pick up leaves", comment: "")]
+        NSLocalizedString("Trim the Hedges", comment: ""),
+        NSLocalizedString("Water the Plants", comment: ""),
+        NSLocalizedString("Pick up Leaves", comment: "")]
     // The information to display in the pickerview
     private var pickerData: [String] = []
     
